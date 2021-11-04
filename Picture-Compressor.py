@@ -7,7 +7,7 @@ from fractions import Fraction
 
 ## Config
 PICTURE_QUALITY = 80
-VALID_EXTENSIONS = [".jpg", ".jpeg", ".gif", ".png"]
+VALID_EXTENSIONS = [".jpg", ".jpeg", ".gif", ".png", ".tif"]
 FOLDER_TO_PROCESS = r"."
 
 
