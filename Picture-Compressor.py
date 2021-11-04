@@ -19,11 +19,8 @@ def process_image(root: str, filename: str) -> str:
         def handle_int_touple_error(e: piexif.ImageIFD, num: int) -> None:
             """ Checks for undesired instance and changes it to touple """
 
-            # if not e["0th"]: return
             if not "0th" in e: return
             if not num in e["0th"]: return
-
-            # if not e["0th"][num]: return
 
             if isinstance(e["0th"][num], int):
                 e["0th"][num] = (e["0th"][num], 1)
@@ -72,7 +69,6 @@ print("Start")
 
 walk = os.walk(FOLDER_TO_PROCESS)
 bytes_saved = 0
-
 
 for root, _, files in walk:
     files = [
