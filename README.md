@@ -6,9 +6,9 @@ It outputs processed file and saved percentage and at the end a saved space from
 It preserves file's **timestamps** and **EXIF data**
 
 ## Usage
-Put in a folder and run it. 
+Put in a folder and run. 
 
-This will take directory, the script is in and compresses pictures in folder and it's subfolders.
+This will take the directory the script is in and compresses all pictures in folder and it's subfolders.
 
 ##
 Screenshots
