@@ -1,5 +1,5 @@
 # Picture-Compressor
-Python script, that uses *PIL* module, opens common picture formats (jpg, jpeg, png, gif), optimizes them and saves them at 80% quality. 
+Python script, that uses *[pillow](https://pillow.readthedocs.io/en/stable/)* module, opens common picture formats (jpg, jpeg, png, gif), optimizes them and saves them at 80% quality. 
 
 It outputs processed file and saved percentage and at the end a saved space from one run
 
