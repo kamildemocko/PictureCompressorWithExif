@@ -3,7 +3,6 @@ import math
 import shutil
 from PIL import Image
 import piexif
-from fractions import Fraction
 
 ## Config
 PICTURE_QUALITY = 80
